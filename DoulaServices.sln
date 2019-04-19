@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoulaServices.WebMVC", "DoulaServices.WebMVC\DoulaServices.WebMVC.csproj", "{84C85F22-BA38-4C9F-8EB0-1CBBB6091563}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoulaServices.Data", "DoulaServices.Data\DoulaServices.Data.csproj", "{8942D78D-4C80-4D37-AA27-C2FCB2464334}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoulaServices.Contracts", "DoulaServices.Contracts\DoulaServices.Contracts.csproj", "{570AB200-93AA-476D-A6EB-ADD69DF19A7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoulaServices.Models", "DoulaServices.Models\DoulaServices.Models.csproj", "{9A5557F1-6ABA-468C-9C52-1A5C47FF3B60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoulaServices.Services", "DoulaServices.Services\DoulaServices.Services.csproj", "{F575E1B2-5DB0-4D3F-8F2F-7FF3784AD073}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoulaServices.Tests", "DoulaServices.Tests\DoulaServices.Tests.csproj", "{FA25D3DF-6CCE-4A4B-9D36-B51A7BA41C49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84C85F22-BA38-4C9F-8EB0-1CBBB6091563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84C85F22-BA38-4C9F-8EB0-1CBBB6091563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C85F22-BA38-4C9F-8EB0-1CBBB6091563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84C85F22-BA38-4C9F-8EB0-1CBBB6091563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8942D78D-4C80-4D37-AA27-C2FCB2464334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8942D78D-4C80-4D37-AA27-C2FCB2464334}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8942D78D-4C80-4D37-AA27-C2FCB2464334}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8942D78D-4C80-4D37-AA27-C2FCB2464334}.Release|Any CPU.Build.0 = Release|Any CPU
+		{570AB200-93AA-476D-A6EB-ADD69DF19A7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{570AB200-93AA-476D-A6EB-ADD69DF19A7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{570AB200-93AA-476D-A6EB-ADD69DF19A7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{570AB200-93AA-476D-A6EB-ADD69DF19A7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A5557F1-6ABA-468C-9C52-1A5C47FF3B60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A5557F1-6ABA-468C-9C52-1A5C47FF3B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A5557F1-6ABA-468C-9C52-1A5C47FF3B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A5557F1-6ABA-468C-9C52-1A5C47FF3B60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F575E1B2-5DB0-4D3F-8F2F-7FF3784AD073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F575E1B2-5DB0-4D3F-8F2F-7FF3784AD073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F575E1B2-5DB0-4D3F-8F2F-7FF3784AD073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F575E1B2-5DB0-4D3F-8F2F-7FF3784AD073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA25D3DF-6CCE-4A4B-9D36-B51A7BA41C49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA25D3DF-6CCE-4A4B-9D36-B51A7BA41C49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA25D3DF-6CCE-4A4B-9D36-B51A7BA41C49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA25D3DF-6CCE-4A4B-9D36-B51A7BA41C49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {254B189F-4725-4092-9497-AB42B86C4F0F}
+	EndGlobalSection
+EndGlobal

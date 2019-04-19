@@ -1,0 +1,16 @@
+C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Models\bin\Debug\DoulaServices.Models.dll.config
+C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Models\bin\Debug\DoulaServices.Models.dll
+C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Models\bin\Debug\DoulaServices.Models.pdb
+C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Models\bin\Debug\EntityFramework.dll
+C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Models\bin\Debug\EntityFramework.xml
+C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Models\obj\Debug\DoulaServices.Models.csprojAssemblyReference.cache
+C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Models\obj\Debug\DoulaServices.Models.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Models\obj\Debug\DoulaServices.Models.csproj.CopyComplete
+C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Models\obj\Debug\DoulaServices.Models.dll
+C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Models\obj\Debug\DoulaServices.Models.pdb

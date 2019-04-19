@@ -1,0 +1,134 @@
+﻿@model IEnumerable<DoulaServices.Models.DoulaListItem>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+@if (TempData.ContainsKey("SaveResult"))
+{
+    <div class="alert alert-success fade in" role="alert">
+        @ViewBag.SaveResult
+        <button type="button" class="close" data-dismiss="alert">
+            <span>&times;</span>
+        </button>
+    </div>
+}
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DoulaId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DoulaName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DoulaLocation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VbacExp)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AvailJan)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AvailFeb)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AvailMar)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AvailApr)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AvailMay)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AvailJun)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AvailJul)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AvailAug)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AvailSep)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AvailOct)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AvailNov)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AvailDec)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DoulaId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DoulaName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DoulaLocation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VbacExp)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AvailJan)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AvailFeb)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AvailMar)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AvailApr)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AvailMay)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AvailJun)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AvailJul)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AvailAug)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AvailSep)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AvailOct)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AvailNov)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AvailDec)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.DoulaId }) |
+                @Html.ActionLink("Details", "Details", new { id=item.DoulaId }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.DoulaId })
+            </td>
+        </tr>
+    }
+
+</table>

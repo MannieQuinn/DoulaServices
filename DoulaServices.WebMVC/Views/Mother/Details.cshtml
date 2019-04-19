@@ -1,0 +1,74 @@
+﻿@model DoulaServices.Models.MotherDetail
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>MotherDetail</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.MotherId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MotherId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MotherLocation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MotherLocation)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DueDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DueDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstPregnancy)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FirstPregnancy)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VagBirAftCes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VagBirAftCes)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BreastFeeding)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BreastFeeding)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MotherId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

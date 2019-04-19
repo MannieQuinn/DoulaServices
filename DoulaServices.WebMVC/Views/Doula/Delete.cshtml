@@ -1,0 +1,146 @@
+﻿@model DoulaServices.Models.DoulaDetail
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>DoulaDetail</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DoulaId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DoulaId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DoulaName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DoulaName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DoulaLocation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DoulaLocation)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VbacExp)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VbacExp)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AvailJan)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AvailJan)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AvailFeb)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AvailFeb)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AvailMar)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AvailMar)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AvailApr)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AvailApr)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AvailMay)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AvailMay)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AvailJun)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AvailJun)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AvailJul)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AvailJul)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AvailAug)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AvailAug)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AvailSep)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AvailSep)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AvailOct)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AvailOct)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AvailNov)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AvailNov)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AvailDec)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AvailDec)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

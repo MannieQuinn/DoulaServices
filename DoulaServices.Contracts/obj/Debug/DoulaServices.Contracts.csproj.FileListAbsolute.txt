@@ -1,0 +1,16 @@
+C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Contracts\bin\Debug\DoulaServices.Contracts.dll.config
+C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Contracts\bin\Debug\DoulaServices.Contracts.dll
+C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Contracts\bin\Debug\DoulaServices.Contracts.pdb
+C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Contracts\bin\Debug\EntityFramework.dll
+C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Contracts\bin\Debug\EntityFramework.SqlServer.dll
+C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Contracts\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Contracts\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Contracts\bin\Debug\EntityFramework.xml
+C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Contracts\bin\Debug\EntityFramework.SqlServer.xml
+C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Contracts\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Contracts\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Contracts\obj\Debug\DoulaServices.Contracts.csprojAssemblyReference.cache
+C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Contracts\obj\Debug\DoulaServices.Contracts.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Contracts\obj\Debug\DoulaServices.Contracts.csproj.CopyComplete
+C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Contracts\obj\Debug\DoulaServices.Contracts.dll
+C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Contracts\obj\Debug\DoulaServices.Contracts.pdb
