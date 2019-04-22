@@ -18,3 +18,4 @@ C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Data\obj\Debug\Do
 C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Data\obj\Debug\DoulaServices.Data.csproj.GenerateResource.cache
 C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Data\obj\Debug\DoulaServices.Data.Migrations.UpdateDatabase.resources
 C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Data\obj\Debug\DoulaServices.Data.Migrations.DbDoulas.resources
+C:\DotNetProjects\BlueBadgeProject\DoulaServices\DoulaServices.Data\obj\Debug\DoulaServices.Data.Migrations.update.resources

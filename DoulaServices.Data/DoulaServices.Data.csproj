@@ -69,6 +69,18 @@
     <Compile Include="Migrations\201904171349154_DbDoulas.Designer.cs">
       <DependentUpon>201904171349154_DbDoulas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201904192058043_update.cs" />
+    <Compile Include="Migrations\201904192058043_update.Designer.cs">
+      <DependentUpon>201904192058043_update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904221335209_changedDoMoInfo.cs" />
+    <Compile Include="Migrations\201904221335209_changedDoMoInfo.Designer.cs">
+      <DependentUpon>201904221335209_changedDoMoInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904221500303_DonReallyKnowWhy.cs" />
+    <Compile Include="Migrations\201904221500303_DonReallyKnowWhy.Designer.cs">
+      <DependentUpon>201904221500303_DonReallyKnowWhy.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Mother.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -86,6 +98,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201904171349154_DbDoulas.resx">
       <DependentUpon>201904171349154_DbDoulas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904192058043_update.resx">
+      <DependentUpon>201904192058043_update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904221335209_changedDoMoInfo.resx">
+      <DependentUpon>201904221335209_changedDoMoInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904221500303_DonReallyKnowWhy.resx">
+      <DependentUpon>201904221500303_DonReallyKnowWhy.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

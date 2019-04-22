@@ -252,7 +252,7 @@
     <Content Include="Views\DoMo\Create.cshtml" />
     <Content Include="Views\DoMo\Details.cshtml" />
     <Content Include="Views\DoMo\Edit.cshtml" />
-    <Content Include="Views\DoMo\DeleteDoMo.cshtml" />
+    <Content Include="Views\DoMo\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

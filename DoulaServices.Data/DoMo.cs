@@ -10,8 +10,8 @@ namespace DoulaServices.Data
     {
         public int DoMoId { get; set; }
         public Guid OwnerId { get; set; }
-        public int DoulaId { get; set; }
-        public int MotherId { get; set; }
+        public string DoulaName { get; set; }
+        public string FirstName { get; set; }
         public string Notes { get; set; }
         public virtual Doula Doula { get; set; }
         public virtual Mother Mother { get; set; }

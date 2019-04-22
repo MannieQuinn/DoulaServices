@@ -9,10 +9,10 @@
             @Html.DisplayNameFor(model => model.DoMoId)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.DoulaId)
+            @Html.DisplayNameFor(model => model.DoulaName)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.MotherId)
+            @Html.DisplayNameFor(model => model.FirstName)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.Notes)
@@ -26,18 +26,18 @@
             @Html.DisplayFor(modelItem => item.DoMoId)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.DoulaId)
+            @Html.DisplayFor(modelItem => item.DoulaName)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.MotherId)
+            @Html.DisplayFor(modelItem => item.FirstName)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Notes)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            @Html.ActionLink("Edit", "Edit", new { id = item.DoMoId }) |
+            @Html.ActionLink("Details", "Details", new { id = item.DoMoId }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.DoMoId })
         </td>
     </tr>
 }

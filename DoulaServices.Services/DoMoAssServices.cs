@@ -21,8 +21,8 @@ namespace DoulaServices.Services
                 new DoMo()
                 {
                     OwnerId = _userId,
-                    DoulaId = model.DoulaId,
-                    MotherId = model.MotherId,
+                    DoulaName = model.DoulaName,
+                    FirstName = model.FirstName,
                     Notes = model.Notes
                 };
             using (var ctx=new ApplicationDbContext())
@@ -44,8 +44,8 @@ namespace DoulaServices.Services
                         e => new ListItem
                         {
                             DoMoId = e.DoMoId,
-                            DoulaId = e.DoulaId,
-                            MotherId = e.MotherId,
+                            DoulaName = e.DoulaName,
+                            FirstName = e.FirstName,
                             Notes = e.Notes
                         });
                 return query.ToArray();
@@ -64,8 +64,8 @@ namespace DoulaServices.Services
                     new Details
                     {
                         DoMoId = entity.DoMoId,
-                        DoulaId = entity.DoulaId,
-                        MotherId = entity.MotherId,
+                        DoulaName = entity.DoulaName,
+                        FirstName = entity.FirstName,
                         Notes = entity.Notes
                     };
             }
@@ -81,8 +81,8 @@ namespace DoulaServices.Services
                         .Single(e => e.DoMoId == model.DoMoId && e.OwnerId == _userId);
 
                 entity.DoMoId = model.DoMoId;
-                entity.DoulaId = model.DoulaId;
-                entity.MotherId = model.MotherId;
+                entity.DoulaName = model.DoulaName;
+                entity.FirstName = model.FirstName;
                 entity.Notes = model.Notes;
 
                 return ctx.SaveChanges() == 1;

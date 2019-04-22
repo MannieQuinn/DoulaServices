@@ -68,8 +68,8 @@ namespace DoulaServices.WebMVC.Controllers
                 new Edit
                 {
                     DoMoId = detail.DoMoId,
-                    DoulaId = detail.DoulaId,
-                    MotherId = detail.MotherId,
+                    DoulaName = detail.DoulaName,
+                    FirstName = detail.FirstName,
                     Notes = detail.Notes
                 };
             return View(model);
